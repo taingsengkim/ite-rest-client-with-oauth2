@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="istad-common.istad-common-swagger" options="-parameters" />
+      <module name="istad-common.istad-common-swagger.main" options="-parameters" />
+      <module name="istad-common.istad-common-swagger.test" options="-parameters" />
+      <module name="istad-common.istad-common-webflux" options="-parameters" />
+      <module name="istad-common.istad-common-webflux.main" options="-parameters" />
+      <module name="istad-common.istad-common-webflux.test" options="-parameters" />
+      <module name="microservices.business-service" options="-parameters" />
+      <module name="microservices.business-service.main" options="-parameters" />
+      <module name="microservices.business-service.test" options="-parameters" />
+      <module name="microservices.customer-service.customer-service-main" options="-parameters" />
+      <module name="microservices.customer-service.customer-service-main.main" options="-parameters" />
+      <module name="microservices.customer-service.customer-service-main.test" options="-parameters" />
+      <module name="microservices.gateway-server" options="-parameters" />
+      <module name="microservices.gateway-server.main" options="-parameters" />
+      <module name="microservices.gateway-server.test" options="-parameters" />
+      <module name="microservices.order-service.order-service-client" options="-parameters" />
+      <module name="microservices.order-service.order-service-client.main" options="-parameters" />
+      <module name="microservices.order-service.order-service-client.test" options="-parameters" />
+      <module name="microservices.order-service.order-service-main" options="-parameters" />
+      <module name="microservices.order-service.order-service-main.main" options="-parameters" />
+      <module name="microservices.order-service.order-service-main.test" options="-parameters" />
+      <module name="oauth2-spring-authorization-server-2" options="-parameters" />
+      <module name="oauth2-spring-authorization-server-2.main" options="-parameters" />
+      <module name="oauth2-spring-authorization-server-2.test" options="-parameters" />
+    </option>
+  </component>
+</project>

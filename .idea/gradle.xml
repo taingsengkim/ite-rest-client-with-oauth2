@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/istad-ite-platform/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/istad-ite-platform/build-logic" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/istad-ite-platform/istad-common" name="istad-common">
+                <projects>
+                  <project path="$PROJECT_DIR$/istad-ite-platform/istad-common" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-domain" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-restapi" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-swagger" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-webflux" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/istad-ite-platform/microservices" name="microservices">
+                <projects>
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/istad-ite-platform/microservices/business-service" name="business-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/business-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service" name="customer-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-domain" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-domain/customer-application-service" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-domain/customer-domain-core" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-main" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-message" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-persistence" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-restapi" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/istad-ite-platform/microservices/gateway-server" name="gateway-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/gateway-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service" name="order-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-client" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-domain" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-domain/order-application-service" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-domain/order-domain-core" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-main" />
+                  <project path="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-persistence" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/istad-ite-platform" />
+        <option name="gradleJvm" value="ms-25" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/istad-ite-platform" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/build-logic" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/istad-common" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-domain" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-restapi" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-swagger" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/istad-common/istad-common-webflux" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/business-service" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-domain" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-domain/customer-application-service" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-domain/customer-domain-core" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-main" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-message" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-persistence" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/customer-service/customer-service-restapi" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/gateway-server" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/order-service" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-client" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-domain" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-domain/order-application-service" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-domain/order-domain-core" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-main" />
+            <option value="$PROJECT_DIR$/istad-ite-platform/microservices/order-service/order-service-persistence" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/oauth2-spring-authorization-server-2" />
+        <option name="gradleJvm" value="openjdk-27" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/oauth2-spring-authorization-server-2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

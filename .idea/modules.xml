@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/istad-common/istad-common-swagger/istad-common.istad-common-swagger.main.iml" filepath="$PROJECT_DIR$/.idea/modules/istad-common/istad-common-swagger/istad-common.istad-common-swagger.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/istad-common/istad-common-webflux/istad-common.istad-common-webflux.main.iml" filepath="$PROJECT_DIR$/.idea/modules/istad-common/istad-common-webflux/istad-common.istad-common-webflux.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/business-service/microservices.business-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/business-service/microservices.business-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-domain/customer-application-service/microservices.customer-service.customer-service-domain.customer-application-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-domain/customer-application-service/microservices.customer-service.customer-service-domain.customer-application-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-main/microservices.customer-service.customer-service-main.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-main/microservices.customer-service.customer-service-main.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-persistence/microservices.customer-service.customer-service-persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-persistence/microservices.customer-service.customer-service-persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-restapi/microservices.customer-service.customer-service-restapi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/customer-service/customer-service-restapi/microservices.customer-service.customer-service-restapi.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/gateway-server/microservices.gateway-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/gateway-server/microservices.gateway-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-client/microservices.order-service.order-service-client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-client/microservices.order-service.order-service-client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-domain/order-application-service/microservices.order-service.order-service-domain.order-application-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-domain/order-application-service/microservices.order-service.order-service-domain.order-application-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-main/microservices.order-service.order-service-main.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-main/microservices.order-service.order-service-main.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-persistence/microservices.order-service.order-service-persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/order-service/order-service-persistence/microservices.order-service.order-service-persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rest-client-with-oauth2.iml" filepath="$PROJECT_DIR$/.idea/rest-client-with-oauth2.iml" />
+    </modules>
+  </component>
+</project>
