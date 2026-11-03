@@ -1,0 +1,63 @@
+
+spring:
+  application:
+    name: order-service
+
+  security:
+    oauth2:
+      client:
+        registration:
+          customer-client:
+            provider: platform-auth
+            client-id: order-service
+            client-secret: local-order-secret
+            authorization-grant-type: client_credentials
+            client-authentication-method: client_secret_basic
+            scope:
+              - customer.read
+        provider:
+          platform-auth:
+            token-uri: http://localhost:9000/oauth2/token
+
+
+  profiles:
+    active: dev
+  config:
+    import:
+      - "optional:consul:"
+  cloud:
+    consul:
+      config:
+        enabled: true
+        format: yaml
+        watch:
+          enabled: true
+      discovery:
+        health-check-url: http://host.docker.internal:${server.port}/actuator/health
+        prefer-ip-address: true
+        service-name: order-service
+        instance-id: ${spring.application.name}-${random.value}
+  r2dbc:
+    url: r2dbc:postgresql://localhost:9543/db_order
+    username: iteuser
+    password: qwerqwer
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+    url: jdbc:postgresql://localhost:9543/db_order
+    user: iteuser
+    password: qwerqwer
+    driver-class-name: org.postgresql.Driver
+
+
+  http:
+    serviceclient:
+      customer-service:
+        connect-timeout:
+          seconds: 10
+        read-timeout:
+          seconds: 10
+#        base-url: http://customer-service
+        base-url: http://localhost:9091
+server:
+  port: 9092
